@@ -65,3 +65,14 @@ I chose the `extra` to equal to 1 because I only want one form of each `Ingredie
 
 So far all the forms are done, so next we'll be working on the actually page. We'll use those forms in the `view` that we'll be creating in the next section.
 
+
+### Git
+
+Create a new checkpoint
+
+```shell
+$ git add .
+$ git commit -m "finished creating forms for creating a recipe"
+$ git push
+```
+___
