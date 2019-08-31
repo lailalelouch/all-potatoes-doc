@@ -66,7 +66,9 @@ Let's start with the ingredients form
 
 replace
 ```html
+	<div class="inline {{ ingredient_form.prefix }}">
 		{{ingredient_form|crispy}}
+	</div>
 ```
 
 with
@@ -75,7 +77,7 @@ with
 	    {{ ingredient_form.management_form }}
 
 	    {% for form in ingredient_form %}
-	    	<div class="row">
+	    	<div class="inline {{ ingredient_form.prefix }} row">
 		    	<div class="mr-1">
 		        	{{ form.measure|as_crispy_field }}
 		    	</div>
@@ -96,19 +98,21 @@ Next is the for loop. The ingredient_form is a formset which means it is a colle
 
 For the instruction form replace
 ```html
-		{{instruction_form|crispy}}
+		<div class="inline {{ instruction_form.prefix }}">
+			{{instruction_form|crispy}}
+		</div>
 ```
 
 with
-```html
-		<div class="inline {{ instruction_form.prefix }}">                    
-		    {{ instruction_form.non_form_errors }}
-		    {{ instruction_form.management_form }}
+```html  
+	    {{ instruction_form.non_form_errors }}
+	    {{ instruction_form.management_form }}
 
-		    {% for form in instruction_form.forms %}
-		        {{ form.description|as_crispy_field}}
-		    {% endfor %}
-		</div>
+	    {% for form in instruction_form.forms %}
+	    	<div class="inline {{ instruction_form.prefix }}" >
+	        	{{ form.description|as_crispy_field}}
+	        </div>
+	    {% endfor %}
 ```
 
 All that's left now is to style this page. Also, if you want to style the `remove` and `add another` buttons, you can do that in the `jquery.formset.js` that you added to the `static` folder. If you go to the bottom of the file, you should see this:
@@ -133,3 +137,18 @@ All that's left now is to style this page. Also, if you want to style the `remov
 You can added any classes you want to add to the button here by just adding space and the class name to `addCssClass` or `deleteCssClass`. You can even change the text shown on the button.
 
 And you're finally done from the create recipe page. What a ride!!!
+
+## Trello
+> Move card `As a logged in user, I can create a new recipe` from the `Doing` to the `Review` list if someone will needs to review it, otherwise move it to `Done`.
+___
+
+### Git
+
+Create a new checkpoint
+
+```shell
+$ git add .
+$ git commit -m "finished create recipe functionality"
+$ git push
+```
+___

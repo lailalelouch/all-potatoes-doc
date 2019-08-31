@@ -344,3 +344,4 @@ class RecipeCreateView(CreateView):
 And we're finally done from this view
 
 ![phew](https://media.giphy.com/media/Oj5w7lOaR5ieNpuBhn/giphy.gif)
+
