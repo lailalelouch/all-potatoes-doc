@@ -10,6 +10,7 @@ These are the things that are already written in the starter project:
 3. A `base` file.
 3. recipes list page.
 4. recipe details page.
+5. my recipes page.
 5. Authentication: login, register, and logout.
 
 I'm making the assumption that you already know how of these work and how they're done. However, if any of these seem confusing, this chapter will have a short explanation for all of them.
