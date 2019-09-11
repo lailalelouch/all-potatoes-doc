@@ -1,6 +1,6 @@
 You might have notices that there is a `urls.py` file in each app. This is just a way to organize our paths/urls instead of having them all in one file (`urls.py` in the inner project folder).
 
-In both `authentication/urls.py` and `recipes/urls.py` paths are written just like you normally write them in the `all_potatoes/urls.py`. However, after that you need to include them in the `all_potatoes/urls.py` file.
+In both `authentication/urls.py` and `recipes/urls.py` paths are written just like you normally write them in the `baked_potato/urls.py`. However, after that you need to include them in the `baked_potato/urls.py` file.
 
 `all_pottatoes/urls.py`
 ```python
