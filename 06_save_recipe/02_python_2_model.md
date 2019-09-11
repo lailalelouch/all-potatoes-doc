@@ -1,5 +1,5 @@
 ## Trello
-> Move card `As a logged in user, I can save other peoples recipes` from the `Backlog` to the `Doing` list.
+> Move card `As a logged in user, I can see a list of saved recipes` from the `Backlog` to the `Doing` list.
 ___
 
 

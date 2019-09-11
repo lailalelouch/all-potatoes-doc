@@ -1,3 +1,8 @@
+## Trello
+> Move card `As a logged in user, I can save other peoples recipes` from the `Backlog` to the `Doing` list.
+___
+
+
 So far, we haven't done the actual saving action. We can only see the recipes we've saved but we can't save any unless we create new `SavedRecipe` objects in the admin page. So, this is what we need to do next. But, before we do that we need to clarify a few things.
 
 
