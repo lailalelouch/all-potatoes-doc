@@ -21,9 +21,9 @@ def saved_recipe_list(request):
 
 You might've noticed the `login_required` decorator on top of the view. What this decorator does is check whether the user is logged in or not everytime this view is accessed. If the user is logged in, operate as normal, otherwise redirect him to `login/` url. 
 
-However, if the url for your login page is not `login/` you can change it in the `baked-potato/settings.py`. By default you'll find it like this
+However, if the url for your login page is not `login/` you can change it in the `crumble_mumble/settings.py`. By default you'll find it like this
 
-`baked-potato/settings.py`
+`crumble_mumble/settings.py`
 ```python
 ...
 LOGIN_URL = "/login/"

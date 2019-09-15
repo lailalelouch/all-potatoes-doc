@@ -18,7 +18,7 @@ If recipe with id 1 is called `Banana cream pie`, the slug would be `banana-crea
 You can see a slug in action...wait, let's take a moment to appreciate this slug in action
 ![slug in action](https://media.giphy.com/media/11zeCgKZ1MaNuE/giphy.gif)
 
-Let's do this again. You can see the slug in action if you open the `bakedpotato` website and click to see the details of any recipe and notice the url. What you're seeing there is the slug which is more readable for the user to see than the id.
+Let's do this again. You can see the slug in action if you open the `crumblemumble` website and click to see the details of any recipe and notice the url. What you're seeing there is the slug which is more readable for the user to see than the id.
 
 If you're interested in how slugs are generated, the next part is for you.
 

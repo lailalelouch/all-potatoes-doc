@@ -9,14 +9,14 @@ I'll go through what we're going to do in the section:
 
 ### Fork the Repo:
 
-Go into the starter [GitHub repository](https://github.com/lailalelouch/baked_potato). On the right hand corner there is a `fork` button; press that. What this does is it makes a copy of this repo under your username.
+Go into the starter [GitHub repository](https://github.com/lailalelouch/crumble_mumble). On the right hand corner there is a `fork` button; press that. What this does is it makes a copy of this repo under your username.
 
 ### Clone the repo:
 
 In your terminal 
 ```shell
-(env)$ git clone https://github.com/<YOUR_USERNAME>/baked_potato.git
-(env)$ cd baked_potato
+(env)$ git clone https://github.com/<YOUR_USERNAME>/crumble_mumble.git
+(env)$ cd crumble_mumble
 ```
 
 ### Install the requiremnets:
