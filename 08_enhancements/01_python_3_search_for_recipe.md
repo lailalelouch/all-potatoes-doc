@@ -11,7 +11,7 @@ In this section we'll be adding a search bar that the user can use to search for
 ...
     <form class="form-inline my-2 my-lg-0" action="{% url 'recipes-list' %}" method="get">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="q">
-      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      <button class="btn btn-green my-2 my-sm-0" type="submit">Search</button>
     </form>
 ...
 ```

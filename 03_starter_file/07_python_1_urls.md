@@ -2,7 +2,7 @@ You might have notices that there is a `urls.py` file in each app. This is just 
 
 In both `authentication/urls.py` and `recipes/urls.py` paths are written just like you normally write them in the `crumble_mumble/urls.py`. However, after that you need to include them in the `crumble_mumble/urls.py` file.
 
-`all_pottatoes/urls.py`
+`crumble_mumble/urls.py`
 ```python
 urlpatterns = [
     path('admin/', admin.site.urls),

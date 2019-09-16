@@ -121,7 +121,7 @@ We'll looping through all the categories and if the category is not the clicked 
 
 
 ## Trello
-> Move card `As a user, I can filter the recipes by categor` from the `Doing` to the `Review` list if someone will needs to review it, otherwise move it to `Done`.
+> Move card `As a user, I can filter the recipes by category` from the `Doing` to the `Review` list if someone will needs to review it, otherwise move it to `Done`.
 ___
 
 ## Git
