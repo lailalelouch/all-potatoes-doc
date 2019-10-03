@@ -1,9 +1,7 @@
-Crumble mumble is a basically an electronic recipes book where all users can share their recipes with the world because sharing is caring.
+Crumble mumble is a electronic recipes book, where all users can share their recipes with the world. Why? Because sharing is caring!
 
 ![sharing](https://media.giphy.com/media/Om8iOmzO9NxAY/giphy.gif)
 
-While others may not be so keen on the sharing idea and they just want a place to keep all their recipes for themselves. 
+While some people may not be so keen on the sharing their recipes, they can use this as a place to keep all their recipes for themselves. The website will organize the recipes by category to allow users to navigate through them easily. It will also help users manage their recipe portions.
 
-The website will help organize their recipes by category to allow them to navigate through them and just help them with managing the recipes portions.
-
-This project will have a bit of javascript in it so **bear** with me (pun not intended).
+This project will have a bit of JavaScript in it, so **bear** with me (pun not intended).
