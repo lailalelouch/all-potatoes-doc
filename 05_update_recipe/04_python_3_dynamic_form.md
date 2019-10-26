@@ -130,20 +130,3 @@ And that's the final styling for this page. Take your time to read it.
 {% endblock content %}
 
 ```
-
-## Trello
-> Move card `As a logged in user, I can update my recipes` from the `Doing` to the `Review` list if someone will needs to review it, otherwise move it to `Done`.
-___
-
-## Git
-
-Create a new checkpoint
-
-```shell
-$ git add .
-$ git commit -m "finished update recipe functionality"
-$ git push
-```
-___
-
-

@@ -21,5 +21,5 @@ ___
 
 We'll be using git throughout the project to keep track of the changes we're making to the code and create checkpoints everytime we finish a functionality.
 
-We're not going to start this project from scratch, so there is a starter project for you. After you fork and clone this project, each time we complete a certain functionality we'll push to that repo.
+We're not going to start this project from scratch, so there is a starter project for you. After you fork and clone this project, each time we complete a certain functionality we'll push to that repo. If you're not forking and cloning is, we'll go through that in the setup.
 

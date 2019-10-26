@@ -1,9 +1,3 @@
-
-## Trello
-> Move card `As a logged in user, I can create a new recipe` from the `Backlog` to the `Doing` list.
-___
-
-
 We'll start by creating a form for the recipes. Since we're creating a form, we'll write it inside of a file called `forms.py` and why is the file called `forms.py` because it makes sense to have your forms in a file called `forms.py` just out of organization.
 
 

@@ -69,5 +69,3 @@ $ git add .
 $ git commit -m "finished changing portions functionality"
 $ git push
 ```
-___
-

@@ -7,3 +7,6 @@ While others may not be so keen on the sharing idea and they just want a place t
 The website will help organize their recipes by category to allow them to navigate through them and just help them with managing the recipes portions.
 
 This project will have a bit of javascript in it so **bear** with me (pun not intended).
+
+
+If you'd like to know exactly what features we're building here, you can take a look at the [trello board](https://trello.com/b/bMCHXMOP/crumble-mumble)

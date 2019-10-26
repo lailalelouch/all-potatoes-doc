@@ -1,8 +1,3 @@
-## Trello
-> Move card `As a logged in user, I can update my recipes` from the `Backlog` to the `Doing` list.
-___
-
-
 The recipe update view is very similar to the create.
 
 `recipes/views.py`
