@@ -58,15 +58,3 @@ We created the `inline formset`s using the `inlineformset_factory`. The first ar
 I chose the `extra` to equal to 1 because I only want one form of each `Ingredient` and `Instruction` form to be shown to the user and give the user the option to add more forms just like what happened in the admin page after we customized it.
 
 So far all the forms are done, so next we'll be working on the actually page. We'll use those forms in the `view` that we'll be creating in the next section.
-
-
-### Git
-
-Create a new checkpoint
-
-```shell
-$ git add .
-$ git commit -m "finished creating forms for creating a recipe"
-$ git push
-```
-___
