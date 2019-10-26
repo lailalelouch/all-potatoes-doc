@@ -133,5 +133,3 @@ $ git add .
 $ git commit -m "finished filtering recipes by category functionality"
 $ git push
 ```
-___
-

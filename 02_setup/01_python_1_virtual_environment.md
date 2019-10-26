@@ -24,6 +24,6 @@ $ cd env/Scripts
 $ activate
 ```
 
-notice after activating the virtual environement, the environment's name is shown in brackets on the left hand side.
+Notice after activating the virtual environement, the environment's name is shown in brackets on the left hand side.
 
 So make sure anytime you're working on the project the virtual environment is activated (name is shown in brackets on the left hand side).

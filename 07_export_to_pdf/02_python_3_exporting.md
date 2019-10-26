@@ -1,8 +1,3 @@
-## Trello
-> Move card `As a logged in user, I can download a recipe in pdf format.` from the `Backlog` to the `Doing` list.
-___
-
-
 Let's start by installing the required libraries. So, stop the server, make sure your virtual environemnt is activated and start installing
 
 `terminal`
@@ -89,19 +84,3 @@ Do keep in mind that we cannot use bootstrap here.
 ```
 
 I've displayed the recipes information with minimal styling. So, you can go ahead and style your pdf however you want. Enjoy
-
-
-## Trello
-> Move card `As a logged in user, I can download a recipe in pdf format.` from the `Doing` to the `Review` list if someone will needs to review it, otherwise move it to `Done`.
-___
-
-## Git
-
-Create a new checkpoint
-
-```shell
-$ git add .
-$ git commit -m "finished pdf export functionality"
-$ git push
-```
-___

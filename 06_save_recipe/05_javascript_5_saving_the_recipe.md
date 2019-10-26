@@ -130,15 +130,4 @@ If everything is actually working perfectly, there is one more thing that's I'd 
 
 ## Trello
 > Move card `As a logged in user, I can save other peoples recipes` from the `Doing` to the `Review` list if someone will needs to review it, otherwise move it to `Done`.
-___
 
-## Git
-
-Create a new checkpoint
-
-```shell
-$ git add .
-$ git commit -m "finished saving recipes functionality"
-$ git push
-```
-___

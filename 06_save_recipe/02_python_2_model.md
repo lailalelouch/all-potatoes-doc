@@ -1,8 +1,3 @@
-## Trello
-> Move card `As a logged in user, I can see a list of saved recipes` from the `Backlog` to the `Doing` list.
-___
-
-
 For the recipe saving function to actually work, we need a way to save or connect a user to a recipe. We can do that through building a new model. Models do not always mean an item of some sort like a recipe, a book, a user. Sometimes a model is a relationship connecting two models. In this case the relationship is a `user` saving a `recipe`. 
 
 Let's see how this model will look like

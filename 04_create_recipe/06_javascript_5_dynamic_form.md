@@ -137,18 +137,3 @@ All that's left now is to style this page. Also, if you want to style the `remov
 You can added any classes you want to add to the button here by just adding space and the class name to `addCssClass` or `deleteCssClass`. You can even change the text shown on the button.
 
 And you're finally done from the create recipe page. What a ride!!!
-
-## Trello
-> Move card `As a logged in user, I can create a new recipe` from the `Doing` to the `Review` list if someone will needs to review it, otherwise move it to `Done`.
-___
-
-### Git
-
-Create a new checkpoint
-
-```shell
-$ git add .
-$ git commit -m "finished create recipe functionality"
-$ git push
-```
-___
