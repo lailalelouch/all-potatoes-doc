@@ -69,4 +69,3 @@ We looped through the recipes that the user saved by first getting the logged in
 
 ## Trello
 > Move card `As a logged in user, I can see a list of saved recipes` from the `Doing` to the `Review` list if someone will needs to review it, otherwise move it to `Done`.
-___ 

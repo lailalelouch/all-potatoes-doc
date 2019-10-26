@@ -16,6 +16,8 @@ A slug is a more readable way to give each object a unique identifier. Usually t
 If recipe with id 1 is called `Banana cream pie`, the slug would be `banana-cream-pie`. If we have another recipe with id 24 called `Banana cream pie` the slug would be `banana-cream-pie-1` which makes it unique for each recipe.
 
 You can see a slug in action...wait, let's take a moment to appreciate this slug in action
+
+
 ![slug in action](https://media.giphy.com/media/11zeCgKZ1MaNuE/giphy.gif)
 
 Let's do this again. You can see the slug in action if you open the `crumblemumble` website and click to see the details of any recipe and notice the url. What you're seeing there is the slug which is more readable for the user to see than the id.
