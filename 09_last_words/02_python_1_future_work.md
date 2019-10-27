@@ -3,7 +3,7 @@ To help you continue to build your skills, I have a few suggestions to help you 
 If you want to improve this website, you can add more features to it. For example:
 
  * Have two kind of users, normal and premium.
- * Normal users can only save upto 10 recipes.
+ * Normal users can only save up to 10 recipes.
  * Only premium users can export to pdf.
  * Add ratings and reviews to the recipes (you'll need to add new models).
  * Allow the users to have the choice to search by name or by an ingredient in the recipe.

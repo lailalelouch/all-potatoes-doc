@@ -5,7 +5,7 @@ ___
 
 In this section we'll be manipulating the ingredients amounts in the recipe details page. So, if the user wants to double everything up they just have to change the portion and the amounts will double up accordingly. All of this will happen without refreshing the page which means we'll be using javascript.
 
-First, we'll need to add a text input for the portion which will have the value of 1 by default and then. theu ser can change this number however he wants.
+First, we'll need to add a text input for the portion which will have the value of 1 by default and then the user can change this number however he wants.
 
 
 I decided to add the input next to the `Ingredients` headline.
@@ -20,7 +20,7 @@ I decided to add the input next to the `Ingredients` headline.
 </h5>
 ```
 
-Whenever the number inside the text input changes, a function that changes the amounts accordinly should be called. `onkeyup` is whenever you press on a keyboard key, the function will be called. So, whenever the user changes the number in the text field the function `changeAmounts()` should be called.
+Whenever the number inside the text input changes, a function that changes the amounts accordingly should be called. `onkeyup` is whenever you press on a keyboard key, the function will be called. So, whenever the user changes the number in the text field the function `changeAmounts()` should be called.
 
 ```
 <input type="number" id="portion" value="1" class="col-6" onkeyup="changeAmounts()">
@@ -34,7 +34,7 @@ We also need to add an id to the ingredient's amount so that the function can re
 {% endfor %}
 ```
 
-All I did was wrap the amount with a `span` tag and gave it and id `ingredient-amount-{{ingredient.id}}`. The id will be different for each ingredient since we added the ingredient id to the span tag id.
+All I did was wrap the amount with a `span` tag and gave it an id `ingredient-amount-{{ingredient.id}}`. The id will be different for each ingredient since we added the ingredient id to the span tag id.
 
 Now, we can start with function. Add it anywhere inside the `<script>` tag.
 

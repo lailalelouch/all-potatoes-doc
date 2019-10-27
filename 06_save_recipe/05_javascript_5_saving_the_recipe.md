@@ -35,7 +35,7 @@ Then, make the button call this function whenever clicked
 </button>
 ```
 
-Now most of the work will be inside of the function. We'll make an `ajax` request to the `save_recipe` view. Before we do that, we need to clarify a few things. One, `AJAX` is a way for us to make requests without refreshing the page. Two, in order to use `AJAX`, we need to have have jquery in our project and make sure it's not the minified version. In this project, you don't need to worry about this, we've already done that in the `base.html`...I know we're spoiling you.
+Now most of the work will be inside of the function. We'll make an `ajax` request to the `save_recipe` view. Before we do that, we need to clarify a few things. One, `AJAX` is a way for us to make requests without refreshing the page. Two, in order to use `AJAX`, we need to have jquery in our project and make sure it's not the minified version. In this project, you don't need to worry about this, we've already done that in the `base.html`...I know we're spoiling you.
 
 
 ![spoil](https://media.giphy.com/media/DRY5URVQgjpgk/giphy.gif)
@@ -82,7 +82,7 @@ Let's break down the ajax request.
 
 `recipes/views.py`
 ```py
- def recipe_details(request, recipe_slug):
+def recipe_details(request, recipe_slug):
 	recipe = Recipe.objects.get(slug=recipe_slug)
 	if SavedRecipe.objects.filter(recipe=recipe, user=request.user):
 		saved = True
@@ -110,7 +110,7 @@ Let's break down the ajax request.
 Now, everything is working perfectly....unless you've got some errors....I'll wait, just go and fix them. We're not going anywhere.
 
 
-If everything is actually working perfectly, there is one more thing that's I'd like to fix. I want the save button to only show if this isn't the user's recipe.
+If everything is actually working perfectly, there is one more thing that I'd like to fix. I want the save button to only show if this isn't the user's recipe.
 
 `recipes/templates/recipe_details.html`
 ```html

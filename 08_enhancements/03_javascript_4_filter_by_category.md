@@ -3,10 +3,9 @@
 ___
 
 
-
 In this section we'll be modifying the recipes list page so that the user can filter through the list without reloading the page. If you go to the homepage in the live demo, you should be able to see what we're going to start building.
 
-I'll give you a bit of introduction of what we need to do to make this work. So, first thing, since this is going to work without reloading the page then there has to be javascript involved. So, as you saw in the live demo, there is button for each category and whenever a button is clicked, the recipes are filtered. So that means each time the button is clicked, a javascript function is being called.
+I'll give you a bit of introduction of what we need to do to make this work. So, first thing, since this is going to work without reloading the page then there has to be javascript involved. So, as you saw in the live demo, there is a button for each category and whenever a button is clicked, the recipes are filtered. So that means each time the button is clicked, a javascript function is being called.
 
 Let's do this part 
 
@@ -23,7 +22,7 @@ Let's do this part
 We haven't done anything special here. The only thing you should focus on are the ids of the buttons. Because using the ids, we'll know which button was pressed and filter the recipes accordingly.
 
 
-This is the javascript function that will make everythin work. Just add it at the bottom of the file.
+This is the javascript function that will make everything works. Just add it at the bottom of the file.
 
 `recipes/templates/recipes_list.html`
 ```js
@@ -117,7 +116,7 @@ This code is being repeated for all categories. All that's happening here is we'
 	{% endfor %}
 ```
 
-We'll looping through all the categories and if the category is not the clicked button's category, we'll hide all of it's recipes and remove the class `active` from it.
+We'll be looping through all the categories and if the category is not the clicked button's category, we'll hide all of it's recipes and remove the class `active` from it.
 
 
 ## Trello

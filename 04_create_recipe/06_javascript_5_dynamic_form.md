@@ -4,7 +4,7 @@ So, I used something called `google`, I don't know if you've heard of it but it'
 
 Go to [this url](https://code.google.com/archive/p/django-dynamic-formset/downloads) and download the latest version.
 
-unzipe the folder and go into the `src` folder. You should find two files and one of them is called `jquery.formset.js`. Move this file into the `static` folder. `recipes/static`. Now that the file is in our project we need to link it to our templates. Since, it's a static file, we can link it just like we linked the `css` files in the `base.html` but since this is a `js` file we'll use the `script` tag.
+unzip the folder and go into the `src` folder. You should find two files and one of them is called `jquery.formset.js`. Move this file into the `static` folder. `recipes/static`. Now that the file is in our project we need to link it to our templates. Since, it's a static file, we can link it just like we linked the `css` files in the `base.html` but since this is a `js` file we'll use the `script` tag.
 
 
 Add the following line anywhere in the `head`
@@ -31,7 +31,7 @@ Now, we'll go to the templates that need dynamic forms. So, in the `create_recip
         $('.inline.{{ instruction_form.prefix }}').formset({
             prefix: '{{ instruction_form.prefix }}'
         });
-    })
+    });
 	</script>
 ...
 {% endblock content %}
@@ -39,7 +39,7 @@ Now, we'll go to the templates that need dynamic forms. So, in the `create_recip
 
 According to the documentation, we need to call the `formset()` function for each formset that we have and give it the formset's prefix. So, first we need to find the formset and then call the function. 
 
-This is how we're finsing the `formset`. The ingredient formset has class `inline` and class with the value of whatever the formset prefix is. In this case the prefix for the ingredient formset is `ingredients`. you can think of the prefix as the forms name.
+This is how we're finsing the `formset`. The ingredient formset has class `inline` and class with the value of whatever the formset prefix is. In this case the prefix for the ingredient formset is `ingredients`. you can think of the prefix as the form's name.
 
 ```javascript
 $('.inline.{{ ingredient_form.prefix }}')
@@ -134,6 +134,6 @@ All that's left now is to style this page. Also, if you want to style the `remov
     };
 ```
 
-You can added any classes you want to add to the button here by just adding space and the class name to `addCssClass` or `deleteCssClass`. You can even change the text shown on the button.
+You can add any classes you want to add to the button here by just adding space and the class name to `addCssClass` or `deleteCssClass`. You can even change the text shown on the button.
 
 And you're finally done from the create recipe page. What a ride!!!

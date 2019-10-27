@@ -1,4 +1,4 @@
-The template for the update view couldn't be any simpler. Just go into the `create_recipe.html` template, copy everything there and paste it into `update_recipe.html`.
+The template for the update view couldn't be any simpler. Just go into the `create_recipe.html` template, copy everything there and paste it into `update_recipe.html`. I've given you the create page with some styling here. It's up to you if you want to keep this or the one you had in the create page.
 
 
 `recipes/templates/update_recipe.html`
@@ -15,7 +15,7 @@ The template for the update view couldn't be any simpler. Just go into the `crea
         $('.inline.{{ instruction_form.prefix }}').formset({
             prefix: '{{ instruction_form.prefix }}'
         });
-    })
+    });
 	</script>
 	<div class="col-7">
 		<form action="." method="POST" enctype="multipart/form-data">

@@ -20,7 +20,7 @@ from django.http import JsonResponse
 from django.views.generic import CreateView, UpdateView
 from django.contrib.auth.decorators import login_required
 
-from .models import Recipe, Category, Ingredient, Instruction
+from .models import Recipe, Category, Ingredient, Instruction, SavedRecipe
 from .forms import RecipeForm, IngredientFormSet, InstructionFormSet
 
 

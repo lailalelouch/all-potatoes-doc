@@ -9,7 +9,7 @@ InstructionFormSet = inlineformset_factory(Recipe, Instruction, fields=['descrip
 Add the `can_delete` attribute to both `inlineformset_factory`s and set it to `True`. This allows the ingredient and instruction that the user chooses to remove from the form to be actually deleted from the database.
 
 
-The second change we'll be making is in the4 template itself. We need to add `{{form.DELETE}}` to each form. This is a hidden field that will allow the `ingredient` and `instruction` object to be marked for deletion. Also, add `{{form.id}}` before each form.
+The second change we'll be making is in the template itself. We need to add `{{form.DELETE}}` to each form. This is a hidden field that will allow the `ingredient` and `instruction` object to be marked for deletion. Also, add `{{form.id}}` before each form.
 
 `recipes/templates/update_recipe.html`
 ```html
@@ -73,7 +73,7 @@ And that's the final styling for this page. Take your time to read it.
     $(function() {
         $('.inline.{{ ingredient_form.prefix }}').formset({prefix: '{{ ingredient_form.prefix }}'});
         $('.inline.{{ instruction_form.prefix }}').formset({prefix: '{{ instruction_form.prefix }}'});
-    })
+    });
 	</script>
 
 	<div class="card m-auto col-11 p-0">
