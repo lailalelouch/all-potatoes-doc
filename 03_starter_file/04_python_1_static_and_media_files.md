@@ -1,5 +1,5 @@
 
-Let's start by explainig the difference between the two and what each one is used for.
+Let's start by explaining the difference between the two and what each one is used for.
 
 
 ### Static Files
@@ -14,7 +14,9 @@ You go on https://codeunicorn.io/ and you see codeunicorns's logo at the top. Th
 
 You can read more about static files [here](https://blog.stackpath.com/static-content/).
 
-Just to make sure this is understood. static files are files that you manually as the developer will add to your project.
+
+I'll try to explain what static files again just to make sure the concept sinks in. Static files are files that you the developer add manually to your project. These files are only added when your developing your website and can only be changed if you open you project and modify them. That is why they're called static.
+
 
 To setup static files to work properly we must go to our `settings.py` file and provide it with a `STATIC_URL` and a `STATIC_ROOT`.
 
@@ -26,9 +28,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 `STATIC_URL` is the URL pattern that you can use to access the static files and `STATIC_ROOT` is the path to where the static files are stored.
 
-Next we need to actually use the `STATIC_URL` and `STATIC_ROOT` to dynamically create URLs to access any file with in a static directory.
+Next we need to actually use the `STATIC_URL` and `STATIC_ROOT` to dynamically create URLs to access any file within the static directory.
 
-In the `urls.py` file in the inner project folder you shoul write the following lines of code, which specifies where project should look for the static files.
+In the `urls.py` file in the inner project folder you should write the following lines of code, which specifies where project should look for the static files.
 
 ```python
 ...

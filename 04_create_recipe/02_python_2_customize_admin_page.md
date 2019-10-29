@@ -1,6 +1,6 @@
 Go into the admin page and try to add a recipe.
 
-You'll notice that it's quite the hassle. You'd first have to go and create a new recipe. Then, create a new ingredient separately and choose that specific recipe for that ingredient and create another ingredient and another. After that, you'd have to go to the instructions and create a new instruction object and so on. Now that's alot. I'd rather just write the recipe on a piece of paper and just get this over with. 
+You'll notice that it's quite the hassle. You'd first have to go and create a new recipe. Then, create a new ingredient separately and choose that specific recipe for that ingredient and create another ingredient and another. After that, you'd have to go to the instructions and create a new instruction object and so on. Now that's a lot. I'd rather just write the recipe on a piece of paper and just get this over with. 
 
 
 The solution to this problem is to customize the admin page and instead of having to add the ingredients and instructions separatley, it would be nice to be able to add and remove in the same page we're creating the recipe.
@@ -32,7 +32,7 @@ class RecipeAdmin(admin.ModelAdmin):
 admin.site.register(Recipe, RecipeAdmin)
 ```
 
-There are many attributes that you can override in the `RecipeAdmin`. Take a look at the [https://docs.djangoproject.com/en/2.2/ref/contrib/admin/](documentation) and see all the options that you have.
+There are many attributes that you can override in the `RecipeAdmin`. Take a look at the [documentation](https://docs.djangoproject.com/en/2.2/ref/contrib/admin/) and see all the options that you have.
 
 The option that we'll be needing is `inlines`. `inlines` takes a list that specifies which models should be shown inline to the `Recipe` model when creating or modifying the `Recipe` object. 
 

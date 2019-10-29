@@ -17,7 +17,7 @@ class RecipeUpdateView(UpdateView):
 	model = Recipe
 ```
 
-This part is identical to the create view but instead of inheriting `CreateView`, it'e inheriting from `UpdateView`. Also, we need to specify the `model`. Without the model the `UpdateView` wouldn't know where to retrieve or what kind of object we want to update. So, we specified that we are updating a `Recipe` object.
+This part is identical to the create view but instead of inheriting `CreateView`, it's inheriting from `UpdateView`. Also, we need to specify the `model`. Without the model the `UpdateView` wouldn't know where to retrieve or what kind of object we want to update. So, we specified that we are updating a `Recipe` object.
 
 
 ### get()

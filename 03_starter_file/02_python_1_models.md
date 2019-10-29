@@ -47,14 +47,16 @@ def create_slug(instance, new_slug=None):
     return slug
 ```
 
-This function takes a recipe object (`instance`) and slugifies its name. So, if the name was `chocolate chip cookies`, the slug would be `chocolate-chip-cookies`.
+This function takes a recipe object (`instance`) and slugifies its name. So, if the name was `chocolate chip cookies`, the slug would be `chocolate-chip-cookies`. You'll also notice that this function is premade by django and we had to import it.
+
+
 ```python
 slug = slugify(instance.name)
 ```
 It then checks if there is another recipe with the same slug, which means there was another recipe with the same name. If there was, then it will number this new slug. For example, let's say there are three recipes in our website that have the title `chocolate-chip-cookies`. The first one created will have this slug `chocolate-chip-cookies`, the second one this slug `chocolate-chip-cookies-1`, and the third one this `chocolate-chip-cookies-2`. These numbers were added just to make sure that each recipe has a unique slug.
 
 We still haven't called this function anywhere, right?
-We want a slug to be added to each new recipe we create. So, we could just call it in the create recipe view(which we still haven't made). However, there is even a better way to do it.
+We want a slug to be added to each new recipe we create. So, we could just call it in the create recipe view (which we still haven't made). However, there is even a better way to do it.
 
 We'll be using something called `signals`. A signal is used to trigger an action when a certain event happens.
 In our case, the action that we want triggered is the `create_slug` function. 

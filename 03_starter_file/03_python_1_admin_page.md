@@ -13,6 +13,6 @@ Email address: <ENTER_YOUR_EMAIL_OR_LEAVE_BLANK>
 Password: <ENTER_YOUR_PASSWORD>
 ```
 
-When you sign in to the admin page, you should be able to see the models that we've created (Recipe, Ingredint,...). These models appeared there becase we registered them.
+When you sign in to the admin page, you should be able to see the models that we've created (Recipe, Ingredient,...). These models appeared there because we registered them.
 
 How did we register them? open `recipes/admin.py` and you should know the answer.

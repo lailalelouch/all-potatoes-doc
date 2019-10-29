@@ -24,7 +24,7 @@ def login_view(request):
 	return render(request, 'login.html', context)
 ```
 
-All this view is doing is extracting the information(username and password) from the `LoginForm`.
+All this view is doing is extracting the information (username and password) from the `UserLogin`.
 ```python
 if form.is_valid():
 	username = form.cleaned_data['username']
@@ -41,7 +41,7 @@ if auth_user is not None:
 	login(request, auth_user)
 ```
 
-note: The `LoginForm` is defined in `authentication/forms.py`
+note: The `UserLogin` is defined in `authentication/forms.py`
 ___
 
 ### Register
@@ -87,7 +87,7 @@ login(request, user)
 ___
 ##### Fun Fact
 
-`Hashing` is similar to `encryption`. However, the difference is when you `encrypt` something, you can `decrypt` it to its original value. On the other hand, when you `hash` something, There is no way to get the original value back.
+`Hashing` is similar to `encryption`. However, the difference is when you `encrypt` something, you can `decrypt` it to its original value. On the other hand, when you `hash` something, there is no way to get the original value back.
 
 ___
 

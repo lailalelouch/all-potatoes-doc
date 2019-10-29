@@ -13,7 +13,7 @@ Open the projects `Trello` board which you'll find in the `Resources` section. I
 	* `Done`: this list will have all the cards/functionalities that are done.
 
 
-Right now all the cards are in the `backlog` list because we haven't started working on the project. So, as we start working in this project, we'll be moving the cards to different lists.
+\*Right now all the cards are in the `backlog` list because we haven't started working on the project. So, as we start working in this project, we'll be moving the cards to different lists.
 
 ___
 

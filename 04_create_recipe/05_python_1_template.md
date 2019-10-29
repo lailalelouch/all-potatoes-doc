@@ -48,7 +48,7 @@ Then we started with the `form` tag. It takes three attributes `action`, `method
 {{instruction_form|crispy}}
 ```
 
-If you've notices, I've added `|crispy` to all the forms. This is how you use `crispy forms` to make your forms crisp. Just remove and add `crispy` and see the difference.
+If you've noticed, I've added `|crispy` to all the forms. This is how you use `crispy forms` to make your forms crisp. Just remove and add `crispy` and see the difference.
 
 ![dancing potato](https://media1.tenor.com/images/61497871ab091f01703a3f1a624fb3c4/tenor.gif?itemid=11684043)
 

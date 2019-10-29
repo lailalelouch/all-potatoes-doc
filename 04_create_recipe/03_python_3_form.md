@@ -24,14 +24,14 @@ Take a few minutes and try to think why...a dancing potato to help
 ![dancing potato](https://media1.tenor.com/images/61497871ab091f01703a3f1a624fb3c4/tenor.gif?itemid=11684043)
 
 
-For the `owner` field, we obvioulsy wouldn't want the user to set the owner manually to any user he wants. The `owner` has to be set by us the developers as the logged in user who's creating this recipe.
+For the `owner` field, we obviously wouldn't want the user to set the owner manually to any user he wants. The `owner` has to be set by us the developers as the logged in user who's creating this recipe.
 
 For the `slug` field, this field is being generated automatically. Go into the `starter_file` chapter `models` section to see how the slug is being generated.
 
 
 We're not done yet though. This form only shows the recipe fields. There are still no ingredients nor instructions. To add the ingredients and instructions we need to create an inline formset for each model. 
 
-Before we actually start making thses `inline formsets`. I should probably explain what they are. Let's start with what is a `formset`. Basically a `formset` is a set of forms, but that's pretty much like defining a grasshopper as grass that hops not a very helpful definition.
+Before we actually start making these `inline formsets`. I should probably explain what they are. Let's start with what is a `formset`. Basically a `formset` is a set of forms, but that's pretty much like defining a grasshopper as grass that hops not a very helpful definition.
 
 
 Let's do this again. A `formset` is used when you need more than one of the same form. For example, when it comes to ingredients, each recipe will have more than one ingredient and therefore the user will be filling out more than one ingredient form when creating a recipe. That is why we need a `formset`.

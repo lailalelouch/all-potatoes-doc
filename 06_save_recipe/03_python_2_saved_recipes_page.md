@@ -9,7 +9,7 @@ from django.shortcuts import render, redirect
 from django.views.generic import CreateView, UpdateView
 from django.contrib.auth.decorators import login_required
 
-from .models import Recipe, Category, Ingredient, Measurement, SavedRecipe
+from .models import Recipe, Category, Ingredient, Instruction, SavedRecipe
 from .forms import IngredientFormSet, InstructionFormSet
 
 ...
