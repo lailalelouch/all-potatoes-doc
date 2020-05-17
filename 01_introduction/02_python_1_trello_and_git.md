@@ -13,7 +13,7 @@ Open the projects `Trello` board which you'll find in the `Resources` section. I
  * `Done`: this list will have all the cards/functionalities that are done.
 
 
-\*Right now all the cards are in the `backlog` list because we haven't started working on the project. So, as we start working in this project, we'll be moving the cards to different lists.
+\*Right now you'll see cards in the `Backlog` list and the `done` list. the cards that are in the `backlog` list are the features that you'll be creating throughout this workshop. While the the cards in the `done` list are features already built in the starter repository that you'll be building on. So, as we start working in this project, we'll be moving the cards to different lists.
 
 Before you can move the cards, you need to copy the board into your account. This'll help you figure out how to do that [copying boards](https://help.trello.com/article/802-copying-cards-lists-or-boards).
 
